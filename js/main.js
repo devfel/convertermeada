@@ -69,12 +69,12 @@ function createTableTitles(container) {
 
   // Create a <li> node for Sample atribute
   let tdSample = document.createElement("td");
-  tdSample.textContent = "Sample";
+  tdSample.textContent = "Amostra";
   trNode.appendChild(tdSample);
 
   // Create a <li> node for name atribute
   let tdName = document.createElement("td");
-  tdName.textContent = "Color Name";
+  tdName.textContent = "Nome (Inglês)";
   trNode.appendChild(tdName);
 
   // Create a <li> node for RGB atribute
@@ -94,7 +94,7 @@ function createTableTitles(container) {
 
   // Create a <li> node for Maxi atribute
   let tdMaxi = document.createElement("td");
-  tdMaxi.textContent = "Maxi Mouline";
+  tdMaxi.textContent = "Circulo (Maxi)";
   trNode.appendChild(tdMaxi);
 
   // Create a <li> node for Sullivans atribute
