@@ -3,31 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Embroidery Floss Converter</title>
+    <title>Conversor de Meadas para Bordados</title>
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
   </head>
   <body>
     <header>
-      <h1>Embroidery Floss Converter</h1>
+      <h1>Conversor de Cores para Bordados</h1>
       <div class="commands">
         <input
           type="text"
           id="searchInput"
           name="fname"
-          placeholder="Type your search"
+          placeholder="Digite sua busca"
         />
         <select name="column" id="ColumnValue">
-          <option value="name" selected disabled hidden>Search By:</option>
-          <option value="name">Color Name</option>
+          <option value="name" selected disabled hidden>Procurar por:</option>
+          <option value="name">Nome da Cor (Inglês)</option>
           <option value="rgb">RGB</option>
           <option value="dmc">DMC</option>
           <option value="anchor">Anchor</option>
-          <option value="maxi">Maxi Mouline</option>
+          <option value="maxi">Circulo (Maxi)</option>
           <option value="sullivans">Sullivans</option>
           <option value="coats">J&P Coats</option>
         </select>
-        <button onclick="filterData()">Search</button>
-        <button onclick="fetchColors()">Show All</button>
+        <button onclick="filterData()">Buscar</button>
+        <button onclick="fetchColors()">Mostrar Todas</button>
       </div>
     </header>
     <div class="table-div">
