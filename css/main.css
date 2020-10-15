@@ -26,7 +26,7 @@ header {
   padding: 1px;
   border: 3px solid #6b6b6b;
   border-radius: 5px;
-  color: #6b6b6b;
+  color: #333333;
   background: #c0c0c0;
   font-size: 1rem;
   outline: none;
@@ -52,12 +52,12 @@ header {
 }
 
 ::placeholder {
-  color: #6b6b6b;
+  color: #333333;
 }
 
 h1 {
   font-size: 2rem;
-  color: #6b6b6b;
+  color: #333333;
   background-color: #ffe2e2;
   text-transform: uppercase;
   font-weight: 600;
